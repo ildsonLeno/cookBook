@@ -1,0 +1,22 @@
+html{
+    font-size: 50%;
+}
+
+@media (max-width: 540px) {
+    body{
+        padding-top: 0;
+    }
+    
+    html{
+        font-size: 45%;
+    }
+
+    main .listas{
+        padding-left: 2rem;
+    }
+
+    main{
+        width: 100%;
+        padding: 8rem 4rem 4rem 4rem;
+    }
+}

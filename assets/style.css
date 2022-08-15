@@ -12,8 +12,11 @@
     border: none;
     outline: none;
     box-sizing: border-box;
-    font-size: 100%;
-    font-family: 'Lato', sans-serif;
+    
+}
+
+html{
+    font-size: 62.5%;
 }
 
 body{
@@ -21,16 +24,20 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 3em;
-    
+    font-family: 'Lato', sans-serif;
+    padding-top: 6rem;
+    height: 100%;    
     background-color: var(--body-bg-color);
     color: var(--text-color);
 }
 
 main{
     background-color: var(--bg-color);
-    width: 1000px;
-    border-radius: 10px;
+    width: 70%;
+    max-width: 1100px;
+    height: auto;
+    border-radius: 1rem;
+    padding: 8rem 2rem 2rem 2rem;
 }
 
 .header {
@@ -38,52 +45,73 @@ main{
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding: 4em 2em 0 2em;
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
 }
 
 .header h1{
     font-family: 'Lato', sans-serif;
-    font-style: bold;
-    font-size: 2em;
+    font-size: 3rem;
     font-weight: 700;
-    line-height: 3em;
+    padding-bottom: 4rem;
+    text-align: center;
     text-transform: uppercase;
 }
 
 #pizza{
     width: 100%;
-    border-radius: 1em;
-    
+    max-width: 1000px;
+    border-radius: 1rem;
 }
 
 figcaption{
     color: var(--text-color-fig);
     text-align: right;
-    font-size: 1em;
+    font-size: 1.6rem;
 }
 
-.listas{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    padding-left: 3rem;
+main .listas{
+    text-align: left;
+    width: 90%;
+    max-width: 1000px;
+    padding-left: 6rem;
 }
 
-.listas h2{
+main .listas h2{
     font-style: bold;
-    font-size: 1.25em;
-    font-weight: 700;
-    line-height: 3em;
+    font-size: 2rem;
+    line-height: 6rem;
     text-align: center;
     text-transform: uppercase;
 }
 
-.listas li, p{
-    font-size: 1.25em;
-    line-height: 3em;
+main p{
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
 
+main li{
+    font-size: 1.6rem;
+    line-height: 3rem; 
 }
 
 footer{
-    padding-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    line-height: 4rem;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
 }
